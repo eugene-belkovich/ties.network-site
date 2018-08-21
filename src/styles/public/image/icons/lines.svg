@@ -1,0 +1,54 @@
+<svg width="57" height="56" viewBox="0 0 57 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Group</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-5327 -2704)">
+<g id="Group">
+<g id="Rectangle 15">
+<use xlink:href="#path0_fill" transform="matrix(-1.11022e-16 1 -1 -1.11022e-16 5384 2744)" fill="#FFFFFF"/>
+<mask id="mask0_outline_ins">
+<use xlink:href="#path0_fill" fill="white" transform="matrix(-1.11022e-16 1 -1 -1.11022e-16 5384 2744)"/>
+</mask>
+<g mask="url(#mask0_outline_ins)">
+<use xlink:href="#path1_stroke_2x" transform="matrix(-1.11022e-16 1 -1 -1.11022e-16 5384 2744)" fill="#174F9F"/>
+</g>
+</g>
+<g id="Rectangle 15">
+<use xlink:href="#path0_fill" transform="matrix(0.5 0.866025 -0.866025 0.5 5373.5 2721)" fill="#FFFFFF"/>
+<mask id="mask1_outline_ins">
+<use xlink:href="#path0_fill" fill="white" transform="matrix(0.5 0.866025 -0.866025 0.5 5373.5 2721)"/>
+</mask>
+<g mask="url(#mask1_outline_ins)">
+<use xlink:href="#path1_stroke_2x" transform="matrix(0.5 0.866025 -0.866025 0.5 5373.5 2721)" fill="#174F9F"/>
+</g>
+</g>
+<g id="Rectangle 15">
+<use xlink:href="#path2_fill" transform="matrix(0.866025 0.5 -0.5 0.866025 5353 2706)" fill="#FFFFFF"/>
+<mask id="mask2_outline_ins">
+<use xlink:href="#path2_fill" fill="white" transform="matrix(0.866025 0.5 -0.5 0.866025 5353 2706)"/>
+</mask>
+<g mask="url(#mask2_outline_ins)">
+<use xlink:href="#path3_stroke_2x" transform="matrix(0.866025 0.5 -0.5 0.866025 5353 2706)" fill="#174F9F"/>
+</g>
+</g>
+<g id="Rectangle 15">
+<use xlink:href="#path2_fill" transform="translate(5328 2704)" fill="#FFFFFF"/>
+<mask id="mask3_outline_ins">
+<use xlink:href="#path2_fill" fill="white" transform="translate(5328 2704)"/>
+</mask>
+<g mask="url(#mask3_outline_ins)">
+<use xlink:href="#path3_stroke_2x" transform="translate(5328 2704)" fill="#174F9F"/>
+</g>
+</g>
+<g id="Ellipse 10">
+<use xlink:href="#path4_fill" transform="translate(5334 2752)" fill="#174F9D"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 4.54747e-13 0L 16 0L 16 48C 16 52.4183 12.4183 56 8 56C 3.58172 56 2.90853e-14 52.4183 6.49639e-14 48L 4.54747e-13 0Z"/>
+<path id="path1_stroke_2x" d="M 4.54747e-13 0L 4.54747e-13 -1L -1 -1L -1 -8.12049e-15L 4.54747e-13 0ZM 16 0L 17 0L 17 -1L 16 -1L 16 0ZM 4.54747e-13 1L 16 1L 16 -1L 4.54747e-13 -1L 4.54747e-13 1ZM 15 0L 15 48L 17 48L 17 0L 15 0ZM 1 48L 1 8.12049e-15L -1 -8.12049e-15L -1 48L 1 48ZM 15 48C 15 51.866 11.866 55 8 55L 8 57C 12.9706 57 17 52.9706 17 48L 15 48ZM 8 55C 4.13401 55 1 51.866 1 48L -1 48C -1 52.9706 3.02944 57 8 57L 8 55Z"/>
+<path id="path2_fill" d="M 0 0L 16 0L 16 48C 16 52.4183 12.4183 56 8 56C 3.58172 56 0 52.4183 0 48L 0 0Z"/>
+<path id="path3_stroke_2x" d="M 0 0L 0 -1L -1 -1L -1 0L 0 0ZM 16 0L 17 0L 17 -1L 16 -1L 16 0ZM 0 1L 16 1L 16 -1L 0 -1L 0 1ZM 15 0L 15 48L 17 48L 17 0L 15 0ZM 1 48L 1 0L -1 0L -1 48L 1 48ZM 15 48C 15 51.866 11.866 55 8 55L 8 57C 12.9706 57 17 52.9706 17 48L 15 48ZM 8 55C 4.13401 55 1 51.866 1 48L -1 48C -1 52.9706 3.02944 57 8 57L 8 55Z"/>
+<path id="path4_fill" d="M 3 1.5C 3 2.32843 2.32843 3 1.5 3C 0.671573 3 0 2.32843 0 1.5C 0 0.671573 0.671573 0 1.5 0C 2.32843 0 3 0.671573 3 1.5Z"/>
+</defs>
+</svg>

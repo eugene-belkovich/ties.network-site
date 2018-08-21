@@ -1,0 +1,81 @@
+.App {
+    text-align: center;
+    width: 100%;
+}
+
+.App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 80px;
+}
+
+.flex {
+    flex: 1;
+}
+
+.App-header {
+    background-color: #222;
+    height: 150px;
+    padding: 20px;
+    color: white;
+}
+
+.App-intro {
+    font-size: large;
+    margin: 0 0;
+}
+
+.active-link {
+    border-bottom: 1px solid white;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@font-face {
+    font-family: Moderat_ss02;
+    src: url('public/font/Moderat-Regular.otf'); /* IE9 Compat Modes */
+    src: url('public/font/Moderat-Regular.otf'),
+    url('public/font/Moderat-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: Moderat_ss02-Bold;
+    src: url('public/font/Moderat-Bold.eot');
+    src: url('public/font/Moderat-Bold.otf'),
+    url('public/font/Moderat-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: AvenirNextLTPro-Demi;
+    src: url('public/font/AvenirNextLTPro-Demi.eot');
+    src: url('public/font/AvenirNextLTPro-Demi.otf'),
+    url('public/font/AvenirNextLTPro-Demi.woff') format('woff');
+}
+
+@font-face {
+    font-family: AvenirNextLTPro;
+    src: url('public/font/AvenirNextLTPro-Regular.eot');
+    src: url('public/font/AvenirNextLTPro-Regular.otf'),
+    url('public/font/AvenirNextLTPro-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: AvenirNextLTPro-Regular;
+    src: url('public/font/AvenirNextLTPro-Regular.eot');
+    src: url('public/font/AvenirNextLTPro-Regular.otf'),
+    url('public/font/AvenirNextLTPro-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: AvenirNextLTPro-Bold;
+    src: url(public/font/AvenirNextLTPro-Bold.otf);
+    src: url('public/font/AvenirNextLTPro-Bold.eot');
+    src: url('public/font/AvenirNextLTPro-Bold.otf'),
+    url('public/font/AvenirNextLTPro-Bold.woff') format('woff');
+}

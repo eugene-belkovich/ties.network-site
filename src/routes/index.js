@@ -1,0 +1,6 @@
+export * from './about-new'
+export * from './platform'
+export * from './database'
+export * from './team'
+export * from './not-found'
+export * from './ico-details'

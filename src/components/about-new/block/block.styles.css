@@ -1,0 +1,42 @@
+.block {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.block-container {
+    flex: 1 1 auto;
+    max-width: 1400px;
+    padding: 40px;
+}
+
+.block-content {
+    font-family: AvenirNextLTPro-Demi;
+    position: relative;
+}
+
+.block-content strong {
+    font-family: AvenirNextLTPro-Bold;
+}
+
+.block-title {
+    font-family: AvenirNextLTPro-Bold;
+    font-size: 42px;
+    line-height: 48px;
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    .block-container {
+        box-sizing: border-box;
+        max-width: 100%;
+        padding: 20px;
+    }
+
+    .block-title {
+        font-size: 32px;
+        line-height: 40px;
+        margin-bottom: 32px;
+    }
+}

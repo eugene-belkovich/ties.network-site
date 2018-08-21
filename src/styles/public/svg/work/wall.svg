@@ -1,0 +1,121 @@
+<svg width="113" height="114" viewBox="0 0 113 114" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Group</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-5747 -3120)">
+<g id="Group">
+<g id="keys linear">
+<g id="Ellipse 6">
+<mask id="mask0_outline_ins">
+<use xlink:href="#path0_fill" fill="white" transform="translate(5747 3120)"/>
+</mask>
+<g mask="url(#mask0_outline_ins)">
+<use xlink:href="#path1_stroke_2x" transform="translate(5747 3120)" fill="#174F9D"/>
+</g>
+</g>
+</g>
+<g id="Rectangle 8">
+<mask id="mask1_outline_ins">
+<use xlink:href="#path2_fill" fill="white" transform="translate(5778 3187.37)"/>
+</mask>
+<g mask="url(#mask1_outline_ins)">
+<use xlink:href="#path3_stroke_2x" transform="translate(5778 3187.37)" fill="#174F9D"/>
+</g>
+</g>
+<g id="Rectangle 8">
+<use xlink:href="#path2_fill" transform="translate(5798 3187.37)" fill="#174F9D"/>
+<mask id="mask2_outline_ins">
+<use xlink:href="#path2_fill" fill="white" transform="translate(5798 3187.37)"/>
+</mask>
+<g mask="url(#mask2_outline_ins)">
+<use xlink:href="#path3_stroke_2x" transform="translate(5798 3187.37)" fill="#174F9D"/>
+</g>
+</g>
+<g id="Rectangle 8">
+<mask id="mask3_outline_ins">
+<use xlink:href="#path2_fill" fill="white" transform="translate(5818 3187.37)"/>
+</mask>
+<g mask="url(#mask3_outline_ins)">
+<use xlink:href="#path3_stroke_2x" transform="translate(5818 3187.37)" fill="#174F9D"/>
+</g>
+</g>
+<g id="Rectangle 8">
+<mask id="mask4_outline_ins">
+<use xlink:href="#path2_fill" fill="white" transform="translate(5768 3176.46)"/>
+</mask>
+<g mask="url(#mask4_outline_ins)">
+<use xlink:href="#path3_stroke_2x" transform="translate(5768 3176.46)" fill="#174F9D"/>
+</g>
+</g>
+<g id="Rectangle 8">
+<mask id="mask5_outline_ins">
+<use xlink:href="#path2_fill" fill="white" transform="translate(5788 3176.46)"/>
+</mask>
+<g mask="url(#mask5_outline_ins)">
+<use xlink:href="#path3_stroke_2x" transform="translate(5788 3176.46)" fill="#174F9D"/>
+</g>
+</g>
+<g id="Rectangle 8">
+<mask id="mask6_outline_ins">
+<use xlink:href="#path2_fill" fill="white" transform="translate(5808 3176.46)"/>
+</mask>
+<g mask="url(#mask6_outline_ins)">
+<use xlink:href="#path3_stroke_2x" transform="translate(5808 3176.46)" fill="#174F9D"/>
+</g>
+</g>
+<g id="Rectangle 8">
+<mask id="mask7_outline_ins">
+<use xlink:href="#path2_fill" fill="white" transform="translate(5778 3165.56)"/>
+</mask>
+<g mask="url(#mask7_outline_ins)">
+<use xlink:href="#path3_stroke_2x" transform="translate(5778 3165.56)" fill="#174F9D"/>
+</g>
+</g>
+<g id="Rectangle 8">
+<mask id="mask8_outline_ins">
+<use xlink:href="#path2_fill" fill="white" transform="translate(5798 3165.56)"/>
+</mask>
+<g mask="url(#mask8_outline_ins)">
+<use xlink:href="#path3_stroke_2x" transform="translate(5798 3165.56)" fill="#174F9D"/>
+</g>
+</g>
+<g id="Rectangle 8">
+<mask id="mask9_outline_ins">
+<use xlink:href="#path2_fill" fill="white" transform="translate(5818 3165.56)"/>
+</mask>
+<g mask="url(#mask9_outline_ins)">
+<use xlink:href="#path3_stroke_2x" transform="translate(5818 3165.56)" fill="#174F9D"/>
+</g>
+</g>
+<g id="Rectangle 8">
+<mask id="mask10_outline_ins">
+<use xlink:href="#path2_fill" fill="white" transform="translate(5768 3155)"/>
+</mask>
+<g mask="url(#mask10_outline_ins)">
+<use xlink:href="#path3_stroke_2x" transform="translate(5768 3155)" fill="#174F9D"/>
+</g>
+</g>
+<g id="Rectangle 8">
+<mask id="mask11_outline_ins">
+<use xlink:href="#path2_fill" fill="white" transform="translate(5788 3155)"/>
+</mask>
+<g mask="url(#mask11_outline_ins)">
+<use xlink:href="#path3_stroke_2x" transform="translate(5788 3155)" fill="#174F9D"/>
+</g>
+</g>
+<g id="Rectangle 8">
+<mask id="mask12_outline_ins">
+<use xlink:href="#path2_fill" fill="white" transform="translate(5808 3155)"/>
+</mask>
+<g mask="url(#mask12_outline_ins)">
+<use xlink:href="#path3_stroke_2x" transform="translate(5808 3155)" fill="#174F9D"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 113 57C 113 88.4802 87.7041 114 56.5 114C 25.2959 114 0 88.4802 0 57C 0 25.5198 25.2959 0 56.5 0C 87.7041 0 113 25.5198 113 57Z"/>
+<path id="path1_stroke_2x" d="M 112 57C 112 87.9363 87.1435 113 56.5 113L 56.5 115C 88.2647 115 114 89.0242 114 57L 112 57ZM 56.5 113C 25.8565 113 1 87.9363 1 57L -1 57C -1 89.0242 24.7353 115 56.5 115L 56.5 113ZM 1 57C 1 26.0637 25.8565 1 56.5 1L 56.5 -1C 24.7353 -1 -1 24.9758 -1 57L 1 57ZM 56.5 1C 87.1435 1 112 26.0637 112 57L 114 57C 114 24.9758 88.2647 -1 56.5 -1L 56.5 1Z"/>
+<path id="path2_fill" d="M 0 0L 21 0L 21 11.6313L 0 11.6313L 0 0Z"/>
+<path id="path3_stroke_2x" d="M 0 0L 0 -1L -1 -1L -1 0L 0 0ZM 21 0L 22 0L 22 -1L 21 -1L 21 0ZM 21 11.6313L 21 12.6313L 22 12.6313L 22 11.6313L 21 11.6313ZM 0 11.6313L -1 11.6313L -1 12.6313L 0 12.6313L 0 11.6313ZM 0 1L 21 1L 21 -1L 0 -1L 0 1ZM 20 0L 20 11.6313L 22 11.6313L 22 0L 20 0ZM 21 10.6313L 0 10.6313L 0 12.6313L 21 12.6313L 21 10.6313ZM 1 11.6313L 1 0L -1 0L -1 11.6313L 1 11.6313Z"/>
+</defs>
+</svg>

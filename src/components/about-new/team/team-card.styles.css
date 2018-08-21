@@ -1,0 +1,29 @@
+.team-card__description {
+    font-family: AvenirNextLTPro;
+    font-size: 14px;
+    margin-top: 12px;
+}
+
+.team-card__header {
+    align-items: flex-end;
+    display: flex;
+}
+
+.team-card__image {
+    flex: 0 0 180px;
+    height: 180px;
+    width: 180px;
+}
+
+.team-card__linkedIn {
+    flex: 0 0 20px;
+    height: 20px;
+    margin-left: 12px;
+    width: 20px;
+}
+
+.team-card__name {
+    font-family: AvenirNextLTPro-Bold;
+    font-size: 18px;
+    margin-top: 16px;
+}

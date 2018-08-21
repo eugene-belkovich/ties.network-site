@@ -1,0 +1,246 @@
+.subscribe-input {
+    margin: 30px 0 !important;
+}
+
+.subscribe-email {
+    width: 100%;
+}
+
+.subscribe-form-container.subscribe-email:hover {
+    color: white;
+}
+
+.subscribe-form-container .subscribe-email::after {
+    background-color: white !important;
+}
+
+.subscribe-form-container .subscribe-email::before {
+    background-color: #F8F8F8 !important;
+}
+
+.subscribe-form-container .subscribe-email input {
+    color: white;
+}
+
+.subscribe-to-ties {
+    background: #1a4d9f;
+}
+
+.subscribe-form-container {
+    background: #1a4d9f;
+    padding: 75px 0;
+}
+
+.subscribe-title-container {
+    height: 100%;
+}
+
+.subscribe-form .subscribe-title {
+    font-family: AvenirNextLTPro-Demi;
+    font-size: 24px;
+}
+
+.subscribe-title {
+    text-align: left;
+    font-family: AvenirNextLTPro-Regular;
+    font-size: 24px;
+}
+
+.subscribe-to-ties .subscribe-title {
+    color: white;
+}
+
+.subscribe-wrapper {
+    min-width: 450px;
+}
+
+.subscribe-button-container {
+    min-width: 200px;
+}
+
+.subscribe-form .subscribe-button {
+    width: 232px;
+    height: 60px;
+    margin-left: 20px;
+    font-family: AvenirNextLTPro;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    background-color: rgb(26, 77, 159);
+}
+
+.subscribe-to-ties .subscribe-form .subscribe-button {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.subscribe-to-ties .subscribe-form .subscribe-button span {
+    color: black;
+}
+
+.ask-container .ask-button {
+    width: 232px;
+    height: 60px;
+    font-family: AvenirNextLTPro;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    background-color: rgb(26, 77, 159);
+}
+
+.subscribe-form .subscribe-button:hover {
+    background-color: rgb(26, 77, 159) !important;
+}
+
+.subscribe-form .subscribe-email {
+    font-family: AvenirNextLTPro;
+    font-size: 22px;
+}
+
+.subscribe-keep-in-touch-container {
+    margin-top: 60px !important;
+    background-color: #ffffff;
+}
+
+.subscribe-keep-in-touch-container .subscribe-title {
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 48px;
+}
+
+.subscribe-keep-in-touch-container .social-link i {
+    color: rgb(26, 77, 159);
+}
+
+.subscribe-keep-in-touch-container .social-link i:hover {
+    color: #262626;
+}
+
+.ask-container {
+    margin-top: 35px;
+}
+
+.ask-container .ask-button:hover {
+    background-color: rgb(26, 77, 159) !important;
+}
+
+@media (max-width: 1279.5px) {
+    .subscribe-form .subscribe-button {
+        height: 50px;
+    }
+
+    .ask-container .ask-button {
+        height: 50px;
+    }
+
+    .subscribe-form .subscribe-email {
+        font-size: 18px;
+    }
+
+    .subscribe-to-ties {
+        padding-top: 30px;
+        padding-bottom: 20px;
+        background: #1a4d9f;
+    }
+
+    .subscribe-form-container {
+        padding: 0;
+    }
+    .subscribe-title {
+        text-align: center;
+        font-size: 18px;
+    }
+    .about-top-subscribe .subscribe-form .subscribe-title {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 959.5px) {
+    .subscribe-wrapper {
+        min-width: 0;
+    }
+    .subscribe-form .subscribe-button {
+        margin-left: 20px;
+    }
+    .ask-container .ask-button {
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 599.5px) {
+    .subscribe-form .subscribe-button {
+        margin-left: 0 !important;
+        height: 45px;
+        font-size: 14px;
+    }
+
+    .subscribe-title{
+      font-size: 17px;
+    }
+
+    .subscribe-to-ties {
+        padding: 30px 0;
+    }
+    .about-top-subscribe .subscribe-form .subscribe-title {
+        font-size: 16px;
+    }
+    .ask-container .ask-button {
+        margin-left: 0 !important;
+        height: 45px;
+    }
+
+    .subscribe-form .subscribe-email {
+        font-size: 14px;
+    }
+
+    .ask-container .ask-button {
+        font-size: 14px;
+    }
+}
+.ico-top-subscribe .subscribe-keep-in-touch-container {
+    background-color: white;
+    background-image: url('./back3.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.subscribe-keep-in-touch-container.small-keep-in-touch .social-link-container {
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+.subscribe-keep-in-touch-container.small-keep-in-touch .subscribe-title {
+    padding-top: 40px;
+    padding-bottom: 0px;
+}
+
+.ico-details-page-wrapper .subscribe-keep-in-touch-container.small-keep-in-touch {
+    margin-top: 50px !important;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.ico-details-page-wrapper .subscribe-keep-in-touch-container.small-keep-in-touch .subscribe-wrapper {
+    margin-bottom: 25px;
+}
+.ico-details-page-wrapper .subscribe-keep-in-touch-container.small-keep-in-touch .social-link-container {
+    display: none;
+}
+
+@media (max-width: 959.5px) {
+    .ico-details-page-wrapper .subscribe-keep-in-touch-container.small-keep-in-touch {
+        /*display: none;*/
+    }
+}
+@media (max-width: 599.5px) {
+    .ico-details-page-wrapper .subscribe-keep-in-touch-container.small-keep-in-touch .subscribe-title {
+        padding-top: 15px;
+        font-size: 16px;
+    }
+    .ico-details-page-wrapper .subscribe-keep-in-touch-container.small-keep-in-touch {
+        margin-top: 25px !important;
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+}

@@ -1,0 +1,9 @@
+.subscribe .social-link i {
+    color: #1a4d9f;
+    width: 24px !important;
+    height: 24px !important;
+}
+
+.subscribe .social-link-container {
+    padding: 0;
+}

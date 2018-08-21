@@ -1,0 +1,25 @@
+.slider-left-arrow {
+    display: block;
+    height: 90px;
+    left: -5%;
+}
+
+.slider-right-arrow {
+    display: block;
+    height: 90px;
+    right: -5%;
+}
+
+.slider-ripple-right {
+    margin-left: -22px;
+    margin-top: 20px;
+}
+
+.slider-ripple-left {
+    margin-left: -10px;
+    margin-top: 20px;
+}
+
+.slick-next:before, .slick-prev:before {
+    content: none;
+}

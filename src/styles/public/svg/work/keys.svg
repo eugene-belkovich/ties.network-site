@@ -1,0 +1,24 @@
+<svg width="113" height="114" viewBox="0 0 113 114" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>keys linear</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-4789 -2910)">
+<g id="keys linear">
+<g id="keys">
+<use xlink:href="#path0_fill" transform="translate(4831 2936)" fill="#174F9D"/>
+</g>
+<g id="Ellipse 6">
+<mask id="mask0_outline_ins">
+<use xlink:href="#path1_fill" fill="white" transform="translate(4789 2910)"/>
+</mask>
+<g mask="url(#mask0_outline_ins)">
+<use xlink:href="#path2_stroke_2x" transform="translate(4789 2910)" fill="#174F9D"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 19.9375 28.5007C 25.2515 26.3069 29 20.9939 29 14.7878C 29 6.62085 22.5083 0 14.5 0C 6.4917 0 0 6.62085 0 14.7878C 0 20.9939 3.74854 26.3069 9.0625 28.5007L 9.0625 36.9697L 12.6875 40.6667L 9.0625 44.3638L 12.6875 48.0608L 9.0625 51.7576L 9.0625 55.4546L 16.3125 61L 19.9375 55.4546L 19.9375 28.5007ZM 19.9375 9.24219C 19.9375 12.3049 17.5029 14.7876 14.5 14.7876C 11.4971 14.7876 9.0625 12.3049 9.0625 9.24219C 9.0625 6.17944 11.4971 3.69678 14.5 3.69678C 17.5029 3.69678 19.9375 6.17944 19.9375 9.24219Z"/>
+<path id="path1_fill" d="M 113 57C 113 88.4802 87.7041 114 56.5 114C 25.2959 114 0 88.4802 0 57C 0 25.5198 25.2959 0 56.5 0C 87.7041 0 113 25.5198 113 57Z"/>
+<path id="path2_stroke_2x" d="M 112 57C 112 87.9363 87.1435 113 56.5 113L 56.5 115C 88.2647 115 114 89.0242 114 57L 112 57ZM 56.5 113C 25.8565 113 1 87.9363 1 57L -1 57C -1 89.0242 24.7353 115 56.5 115L 56.5 113ZM 1 57C 1 26.0637 25.8565 1 56.5 1L 56.5 -1C 24.7353 -1 -1 24.9758 -1 57L 1 57ZM 56.5 1C 87.1435 1 112 26.0637 112 57L 114 57C 114 24.9758 88.2647 -1 56.5 -1L 56.5 1Z"/>
+</defs>
+</svg>

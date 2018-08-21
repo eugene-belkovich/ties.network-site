@@ -1,0 +1,125 @@
+.work-block .explore-features-background-text {
+    left: -169px;
+    top: 144px;
+}
+
+.work-block .work-item-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    max-width: 100vw;
+}
+
+.work-item {
+    max-width: 80%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.work-item-image {
+    margin: 15px;
+}
+
+.work-item-text {
+    font-family: AvenirNextLTPro;
+    font-size: 17px
+}
+
+.work-item-text span {
+    position: relative;
+    display: block;
+    padding: 10px 0;
+}
+
+.work-item-text span:before {
+    border-top: 1px solid rgba(0, 0, 0, .1);
+    content: "";
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 115px;
+}
+
+.work-item-text span:last-child:before {
+    display: none;
+}
+
+.work-block .work-item-container .work-item-container-column {
+    padding: 12px;
+    text-align: center;
+    width: 350px;
+    height: 490px;
+    padding: 25px 14px 0px 14px;
+    background: white no-repeat 100% 100%;
+    background-size: 250px;
+    max-width: 100vw;
+}
+
+.work-card-container {
+    display: flex;
+    justify-content: center;
+}
+
+.work-item-header {
+    font-family: AvenirNextLTPro-Demi;
+    line-height: normal;
+    font-size: 24px;
+    padding-bottom: 24px;
+}
+
+.work-explore-features-content {
+    margin-right: 1%;
+    z-index: 1;
+}
+
+@media (max-width: 1200px) {
+    .work-item {
+        max-width: 95%;
+    }
+
+    .work-item-text {
+        font-size: 14px
+    }
+}
+
+@media (max-width: 950px) {
+    .work-item-text {
+        font-size: 17px;
+    }
+
+    .work-item-container {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    .work-item-container-column {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 599.5px) {
+    .work-explore-features-content {
+        margin: 0;
+    }
+    .work-item {
+        margin: 30px 0 0 0;
+    }
+
+    .work-item-image {
+        width: 60px !important;
+        min-width: 60px;
+        height: 60px !important;
+    }
+
+    .work-item-text {
+        font-size: 14px;
+    }
+}

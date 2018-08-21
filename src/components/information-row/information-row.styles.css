@@ -1,0 +1,71 @@
+.information-row-container {
+    background-color: #1A4D9F;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 7% 20%;
+    color: white;
+}
+
+.about-page-wrapper .information-row-container {
+    background-color: #174DA1;
+    flex-direction: column;
+}
+
+.information-row-text {
+    color: white;
+    font-family: AvenirNextLTPro;
+    font-size: 24px;
+}
+
+.about-page-wrapper .information-row-text {
+    color: white;
+    text-align: center;
+}
+.about-page-wrapper .information-row-text:first-child {
+    margin-bottom: 4%;
+}
+
+@media (max-width: 1279.5px) {
+    .information-row-text {
+        font-size: 21px;
+    }
+    .information-row-container {
+        padding: 7% 14%;
+    }
+}
+
+@media (max-width: 959.5px) {
+    .information-row-text {
+        font-size: 18px;
+    }
+    .information-row-container {
+        padding: 7% 7%;
+    }
+}
+
+@media (max-width: 599.5px) {
+    .information-row-text {
+        font-size: 16px;
+    }
+}
+
+.about-page-wrapper .video-overlay {
+    background-image: url('./ico-details-placeholder.png');
+}
+
+.about-page-wrapper .video-overlay-hide-poster {
+    background: none;
+}
+
+.about-page-wrapper .play-pause {
+    opacity: 1;
+    background-image: url('../../routes/ico-details/play.svg');
+}
+
+.about-page-wrapper .video-title-block {
+    color: #174F9F !important;
+    font-size: 3vw;
+}

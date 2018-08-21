@@ -1,0 +1,14 @@
+.roadmap__scheme-mobile {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .roadmap__scheme {
+        display: none;
+    }
+
+    .roadmap__scheme-mobile {
+        display: block;
+        margin: 0 auto;
+    }
+}

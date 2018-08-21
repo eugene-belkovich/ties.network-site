@@ -1,0 +1,40 @@
+.platform-page .subscribe-keep-in-touch-container {
+    margin-top: 0 !important;
+}
+
+.platform-page .landing-card-wrapper {
+    background-color: white;
+    margin-top: 0 !important;
+}
+
+.platform-page .uses-features-wrapper {
+    background-color: #f6f6f6;
+}
+
+.platform-page .explore-features-wrapper {
+    background-color: white;
+}
+.case-container-1 {
+    background-color: white;
+    background-image: url('./back1.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: right bottom;
+}
+.case-container-2 {
+    background-color: #F6F6F6;
+    background-image: url('./back2.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: left bottom;
+}
+.case-container-3 {
+    background-color: white;
+    background-image: url('./back3.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: right bottom;
+}

@@ -1,0 +1,33 @@
+.the-world__container {
+    align-items: center;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 32px;
+}
+
+.the-world__small {
+    font-size: 52px;
+}
+
+.the-world__title {
+    font-family: AvenirNextLTPro-Bold;
+    font-size: 68px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 768px) {
+    .the-world__container {
+        margin-top: 70px;
+    }
+
+    .the-world__small {
+        font-size: 24px;
+    }
+
+    .the-world__title {
+        font-size: 32px;
+    }
+}

@@ -1,0 +1,41 @@
+image: ayankovsky/yarn-awscli
+
+pipelines:
+  branches:
+    master:
+      - step:
+          script:
+            - yarn
+            - export REACT_APP_ENV=prod
+            - yarn run build -- --release
+            - aws configure set preview.cloudfront true
+            - aws s3 sync build/. s3://prod-ties.network/ --delete
+            - aws cloudfront create-invalidation --distribution-id E6T76ZQAJ81NM --paths "/*"
+
+    develop:
+      - step:
+          script:
+            - yarn
+            - export REACT_APP_ENV=dev
+            - yarn run build -- --release
+            - aws configure set preview.cloudfront true
+            - aws s3 sync build/. s3://dev-ties.network/ --delete
+
+  custom:
+    deploy:
+      - step:
+          script:
+            - yarn
+            - export REACT_APP_ENV=dev
+            - yarn run build -- --release
+            - aws s3 sync build/. s3://dev-ties.network/ --delete
+
+    prod-deploy:
+      - step:
+          script:
+            - yarn
+            - export REACT_APP_ENV=prod
+            - yarn run build -- --release
+            - aws configure set preview.cloudfront true
+            - aws s3 sync build/. s3://prod-ties.network/ --delete
+            - aws cloudfront create-invalidation --distribution-id E6T76ZQAJ81NM --paths "/*"

@@ -1,0 +1,42 @@
+.countdown-field {
+    align-items: center;
+    display: flex;
+}
+
+.countdown-field__container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.countdown-field:not(:first-child):before {
+    content: '/';
+    font-family: AvenirNextLTPro-Bold;
+    font-size: 32px;
+    margin: 0 16px;
+}
+
+.countdown-field__label {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.countdown-field__value {
+    font-family: AvenirNextLTPro-Bold;
+    font-size: 76px;
+}
+
+@media screen and (max-width: 768px) {
+    .countdown-field:not(:first-child):before {
+        font-size: 14px;
+        margin: 0 12px;
+    }
+
+    .countdown-field__label {
+        font-size: 12px;
+    }
+
+    .countdown-field__value {
+        font-size: 32px;
+    }
+}

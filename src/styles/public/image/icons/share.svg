@@ -1,0 +1,52 @@
+<svg width="59" height="62" viewBox="0 0 59 62" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Group</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-6060 -2772)">
+<g id="Group">
+<g id="Group">
+<g id="Rectangle 12">
+<use xlink:href="#path0_stroke" transform="translate(6061 2773)" fill="#174DA1"/>
+</g>
+</g>
+<g id="Group">
+<g id="Ellipse 16">
+<mask id="mask0_outline_ins">
+<use xlink:href="#path1_fill" fill="white" transform="translate(6083 2799.8)"/>
+</mask>
+<g mask="url(#mask0_outline_ins)">
+<use xlink:href="#path2_stroke_2x" transform="translate(6083 2799.8)" fill="#174DA1"/>
+</g>
+</g>
+<g id="Ellipse 16">
+<mask id="mask1_outline_ins">
+<use xlink:href="#path1_fill" fill="white" transform="translate(6108.13 2783)"/>
+</mask>
+<g mask="url(#mask1_outline_ins)">
+<use xlink:href="#path2_stroke_2x" transform="translate(6108.13 2783)" fill="#174DA1"/>
+</g>
+</g>
+<g id="Ellipse 16">
+<mask id="mask2_outline_ins">
+<use xlink:href="#path1_fill" fill="white" transform="translate(6108.13 2815.25)"/>
+</mask>
+<g mask="url(#mask2_outline_ins)">
+<use xlink:href="#path2_stroke_2x" transform="translate(6108.13 2815.25)" fill="#174DA1"/>
+</g>
+</g>
+<g id="Vector 14">
+<use xlink:href="#path3_stroke" transform="translate(6091.83 2789.72)" fill="#174DA1"/>
+</g>
+</g>
+<g id="Vector 15">
+<use xlink:href="#path4_stroke" transform="translate(6092 2773)" fill="#174DA1"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_stroke" d="M 0 60L -0.5 60L -0.5 60.5L 0 60.5L 0 60ZM 0 0L 0 -0.5L -0.5 -0.5L -0.5 0L 0 0ZM 43 60L 43 60.5L 43.5 60.5L 43.5 60L 43 60ZM 30.7404 0L 31.0944 -0.353042L 30.9479 -0.5L 30.7404 -0.5L 30.7404 0ZM 43 12.2951L 43.5 12.2951L 43.5 12.0884L 43.3541 11.942L 43 12.2951ZM 0.5 60L 0.5 0L -0.5 0L -0.5 60L 0.5 60ZM 43 59.5L 0 59.5L 0 60.5L 43 60.5L 43 59.5ZM 0 0.5L 30.7404 0.5L 30.7404 -0.5L 0 -0.5L 0 0.5ZM 43.3541 11.942L 31.0944 -0.353042L 30.3863 0.353042L 42.6459 12.6481L 43.3541 11.942ZM 42.5 12.2951L 42.5 17.5L 43.5 17.5L 43.5 12.2951L 42.5 12.2951ZM 42.5 23L 42.5 40L 43.5 40L 43.5 23L 42.5 23ZM 42.5 45L 42.5 60L 43.5 60L 43.5 45L 42.5 45Z"/>
+<path id="path1_fill" d="M 10.8679 5.375C 10.8679 8.34353 8.43506 10.75 5.43396 10.75C 2.43287 10.75 0 8.34353 0 5.375C 0 2.40647 2.43287 0 5.43396 0C 8.43506 0 10.8679 2.40647 10.8679 5.375Z"/>
+<path id="path2_stroke_2x" d="M 9.86792 5.375C 9.86792 7.78099 7.89309 9.75 5.43396 9.75L 5.43396 11.75C 8.97703 11.75 11.8679 8.90607 11.8679 5.375L 9.86792 5.375ZM 5.43396 9.75C 2.97484 9.75 1 7.78099 1 5.375L -1 5.375C -1 8.90607 1.8909 11.75 5.43396 11.75L 5.43396 9.75ZM 1 5.375C 1 2.96901 2.97484 1 5.43396 1L 5.43396 -1C 1.8909 -1 -1 1.84393 -1 5.375L 1 5.375ZM 5.43396 1C 7.89309 1 9.86792 2.96901 9.86792 5.375L 11.8679 5.375C 11.8679 1.84393 8.97703 -1 5.43396 -1L 5.43396 1Z"/>
+<path id="path3_stroke" d="M 0.290053 12.501L 17.2712 0.407271L 16.6911 -0.407271L -0.290053 11.6865L 0.290053 12.501ZM -0.255187 19.2425L 16.7259 29.3206L 17.2363 28.4606L 0.255187 18.3825L -0.255187 19.2425Z"/>
+<path id="path4_stroke" d="M 0 12.5L -0.5 12.5L -0.5 13L 0 13L 0 12.5ZM 12 12L 0 12L 0 13L 12 13L 12 12ZM 0.5 12.5L 0.5 0L -0.5 0L -0.5 12.5L 0.5 12.5Z"/>
+</defs>
+</svg>

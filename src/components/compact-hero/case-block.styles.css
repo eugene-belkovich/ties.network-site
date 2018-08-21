@@ -1,0 +1,151 @@
+.compact-hero-wrapper {
+    background-color: #174E9E;
+    padding: 60px 0;
+}
+.case-block-content {
+    position: relative;
+    left: 5%;
+    width: 90% !important;
+}
+.case-header-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.case-logo-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.case-header-text {
+    text-align: center;
+    font-size: 20px;
+    font-family: AvenirNextLTPro-Regular;
+}
+.case-block-content .logo-title {
+    font-family: AvenirNextLTPro-Bold;
+    line-height: 28px;
+    text-align: left;
+    color: #2B2B2B;
+    font-size: 34px;
+    margin-top: 24px;
+}
+.case-block-content .description-third {
+    font-family: AvenirNextLTPro;
+    text-align: left;
+    color: #2B2B2B;
+    margin-top: 20px;
+    font-size: 24px;
+    margin-bottom: 24px;
+    line-height: 30px;
+}
+.case-header-block .case-logo-container .logo {
+    width: 13%;
+}
+.case-header-block .logo-main-title {
+    font-size: 28px;
+}
+.case-header-block .case-logo-container {
+    margin-bottom: 20px;
+}
+.platform-text-block .buttons-block .white-paper {
+     margin-left: 0;
+}
+.platform-text-block .buttons-block {
+    justify-content: flex-start;
+    align-items: center;
+}
+.case-header-block {
+    margin-bottom: 30px;
+}
+.case-block-content .logo-row .logo-block,
+.case-block-content .logo-row .description-third {
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.case-container {
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.case-container-main {
+    padding-top: 40px;
+}
+@media (min-width: 1950px) {
+    .case-block-content {
+        width: 80% !important;
+        max-width: 2000px;
+        left: 0;
+    }
+}
+@media (max-width: 1279.5px) {
+    .platform-text-block .buttons-block {
+        justify-content: flex-start;
+        align-items: flex-end;
+    }
+    .case-header-text {
+        font-size: 20px;
+    }
+    .case-block-content .logo-title {
+        font-size: 30px;
+    }
+    .case-block-content .description-third {
+        font-size: 22px;
+    }
+}
+@media (max-width: 959.5px) {
+    .platform-text-block .buttons-block {
+        justify-content: center;
+        align-items: flex-end;
+    }
+    .platform-text-block .buttons-block a {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .platform-text-block .buttons-block .white-paper {
+        /*margin-bottom: 10px;*/
+    }
+    .platform-text-block .buttons-block .download {
+        /*margin-bottom: 10px;*/
+    }
+    .case-block-content .description-third {
+        font-size: 18px;
+    }
+    .case-block-content {
+        /*min-height: 75vh;*/
+    }
+    .case-header-text {
+        font-size: 18px;
+    }
+    .case-block-content .logo-title {
+        font-size: 26px;
+    }
+}
+@media (max-width: 599.5px) {
+    .platform-text-block .buttons-block .white-paper {
+        margin-right: 0;
+        /*margin-bottom: 20px;*/
+    }
+    .platform-text-block .buttons-block {
+        justify-content: center;
+        align-items: center;
+    }
+    .case-block-content .description-third {
+        font-size: 16px;
+    }
+    .case-block-content .logo-title {
+        font-size: 24px;
+    }
+    .case-block-content {
+        position: relative;
+        left: 5%;
+        /*margin-top: -540px;*/
+        width: 90% !important;
+    }
+    .case-header-text {
+        font-size: 16px;
+    }
+}

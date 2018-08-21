@@ -1,0 +1,174 @@
+.insights-block {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.insights-landing-card {
+    background-color: #F6F6F6;
+}
+.insights-wrapper {
+    margin-top: 0;
+    background-color: #F6F6F6;
+}
+.insights-wrapper .team-landing-card {
+    justify-content: center;
+}
+.insights-white-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: white;
+    min-width: 600px;
+    width: 600px;
+    text-align: center;
+    height: 440px;
+    font-family: AvenirNextLTPro;
+    font-size: 18px;
+    /* top: 60px; */
+    z-index: 0;
+    position: relative;
+    top: -250px;
+}
+.insights-landing-card-info {
+    color: gray;
+    margin-top: 15px;
+}
+.insights-white-block-descripton {
+    max-height: 30px;
+}
+.insights-wrapper .platform-text {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.insights-white-block .white-paper {
+    margin-top: 15px !important;
+}
+.insights-landing-image-container {
+    max-height: 500px;
+}
+.insights-landing-card-image {
+    z-index: 55;
+    width: 550px;
+    height: 292px;
+}
+.insights-landing-card-mail {
+    margin-right: 10%;
+}
+.insights-landing-cards {
+    margin-bottom: 3%;
+}
+.insights-landing-card-icon {
+    width: 30px !important;
+}
+.insights-landing-info-container {
+    position: absolute;
+    top: 350px;
+}
+.insights-landing-card-text {
+    margin-left: 15px;
+}
+.insights-landing-card-block {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 705px;
+}
+.insights-title {
+    max-width: 800px;
+}
+.insights-background-text {
+    left: -101px;
+    top: 174px;
+}
+.insights-landing-cards {
+    background-color: #F6F6F6;
+}
+.insights-content {
+    min-height: 480px;
+    z-index: 1;
+    width: 100%;
+    margin: 100px 0 0 120px;
+    z-index: 2;
+}
+.insights-landing-card {
+    display: flex;
+    flex-direction: column;
+}
+.insights-landing-cards .team-landing-card {
+ align-items: flex-end;
+}
+
+.insights-landing-cards .team-landing-card-info {
+    background-color: white;
+    margin-left: -370px !important;
+    padding: 20px 20px 20px 190px;
+    z-index: -1;
+}
+
+@media (max-width: 1279.5px) {
+}
+
+@media (max-width: 959.5px) {
+    .team-landing-card-image {
+        width: 280px !important;
+        height: 280px !important;
+    }
+
+    .insights-wrapper {
+        margin-top: 0;
+    }
+    .insights-landing-card-block {
+        min-width: 200px;
+    }
+    .insights-landing-card-image {
+        width: 354px;
+        height: 186px;
+    }
+    .insights-white-block {
+        height: 300px;
+        top: -120px;
+        min-width: 600px;
+        min-width: 300px;
+        width: 100%;
+        margin-left: 6%;
+        margin-right: 6%;
+    }
+    .insights-white-block-info {
+        padding-left: 7%;
+        padding-right: 7%;
+    }
+}
+
+@media (max-width: 599.5px) {
+    .insights-white-block-info .white-paper {
+        margin-left: 0;
+    }
+
+    .insights-content {
+        margin: 40px 0;
+        margin-bottom: 0;
+    }
+
+    .team-landing-card-image {
+        width: 220px !important;
+        height: 220px !important;
+    }
+    .insights-white-block {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .insights-landing-card-image {
+        width: 280px;
+        height: 147px;
+    }
+    .insights-landing-image-container {
+        max-height: 340px;
+    }
+    .insights-landing-card-info {
+        display: none;
+    }
+    .insights-white-block-descripton {
+        margin-bottom: 50px;
+    }
+}

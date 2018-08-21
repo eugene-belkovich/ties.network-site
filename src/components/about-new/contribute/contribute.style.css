@@ -1,0 +1,94 @@
+.contribute__action {
+    background: #E5332C !important;
+    font-family: AvenirNextLTPro-Bold !important;
+    font-size: 34px !important;
+    margin: 0 16px !important;
+}
+
+.contribute__actions {
+    margin-top: 28px;
+}
+
+.contribute__container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.contribute__description {
+    font-size: 19px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.contribute__investments {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.contribute__investments-label {
+    background: #48484A;
+    color: #FFF;
+    font-family: AvenirNextLTPro;
+    font-size: 20px;
+    padding: 4px 8px;
+    text-transform: uppercase;
+}
+
+.contribute__investments-values {
+    display: flex;
+    margin: 16px 0;
+}
+
+.contribute__total {
+    color: #7F7F7F;
+    font-family: AvenirNextLTPro-Demi;
+    font-size: 24px;
+    margin: 26px 0;
+}
+
+.contribute__whitepaper {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 28px;
+}
+
+.contribute__whitepaper-button {
+    background: #0667D5 !important;
+    font-family: AvenirNextLTPro !important;
+    font-size: 28px !important;
+    margin: 0 16px !important;
+    text-transform: none !important;
+}
+
+.contribute__whitepaper-image {
+    box-shadow: 0.5px 0.9px 18px 0 rgba(32, 29, 30, 0.33);
+    height: 276px;
+    margin-top: 20px;
+    width: 194px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .contribute__action {
+        text-align: center !important;
+    }
+
+    .contribute__investments-values {
+        flex-direction: column;
+    }
+
+    .contribute__total {
+        text-align: center;
+    }
+
+    .contribute__whitepaper {
+        flex-direction: column;
+    }
+
+    .contribute__whitepaper-button {
+        margin-top: 12px !important;
+        text-align: center !important;
+    }
+}

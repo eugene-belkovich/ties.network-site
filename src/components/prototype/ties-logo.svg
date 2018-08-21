@@ -1,0 +1,16 @@
+<svg width="25" height="29" viewBox="0 0 25 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>ties-logo</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-17553 -538)">
+<g id="ties-logo">
+<g id="Group">
+<g id="Vector">
+<use xlink:href="#path0_fill" transform="translate(17553 538)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 25 7.24344L 12.5392 0.0262443L 12.4869 0L 4.96343 4.38281L 17.4504 11.6262L 17.4504 24.2235L 12.5914 27.0317L 12.5914 14.4344L 0.130617 7.21719L 0.0783699 7.19095L 0 7.24344L 0 20.9167L 1.64577 20.9167L 1.64577 9.99909L 10.9457 15.3792L 10.9457 28.0814L 12.4608 28.9738L 12.4869 29L 19.0961 25.1683L 19.0961 10.6814L 8.25496 4.38281L 12.4869 1.91584L 23.3542 8.21448L 23.3542 20.9167L 25 20.9167L 25 7.29593L 25 7.24344Z"/>
+</defs>
+</svg>

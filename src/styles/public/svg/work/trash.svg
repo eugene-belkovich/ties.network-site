@@ -1,0 +1,34 @@
+<svg width="113" height="114" viewBox="0 0 113 114" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Group</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-5747 -3330)">
+<g id="Group">
+<g id="keys linear">
+<g id="Ellipse 6">
+<mask id="mask0_outline_ins">
+<use xlink:href="#path0_fill" fill="white" transform="translate(5747 3330)"/>
+</mask>
+<g mask="url(#mask0_outline_ins)">
+<use xlink:href="#path1_stroke_2x" transform="translate(5747 3330)" fill="#174F9D"/>
+</g>
+</g>
+<g id="Rectangle 9">
+<use xlink:href="#path2_fill" transform="translate(5787.69 3371.95)" fill="#174F9F"/>
+</g>
+<g id="Vector 7">
+<use xlink:href="#path3_stroke" transform="translate(5795.58 3378.89)" fill="#FFFFFF"/>
+</g>
+<g id="Vector 8">
+<use xlink:href="#path4_fill" transform="translate(5786 3365)" fill="#174F9F"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 113 57C 113 88.4802 87.7041 114 56.5 114C 25.2959 114 0 88.4802 0 57C 0 25.5198 25.2959 0 56.5 0C 87.7041 0 113 25.5198 113 57Z"/>
+<path id="path1_stroke_2x" d="M 112 57C 112 87.9363 87.1435 113 56.5 113L 56.5 115C 88.2647 115 114 89.0242 114 57L 112 57ZM 56.5 113C 25.8565 113 1 87.9363 1 57L -1 57C -1 89.0242 24.7353 115 56.5 115L 56.5 113ZM 1 57C 1 26.0637 25.8565 1 56.5 1L 56.5 -1C 24.7353 -1 -1 24.9758 -1 57L 1 57ZM 56.5 1C 87.1435 1 112 26.0637 112 57L 114 57C 114 24.9758 88.2647 -1 56.5 -1L 56.5 1Z"/>
+<path id="path2_fill" d="M 0 0L 31.5721 0L 29.317 37.0526L 2.25515 37.0526L 0 0Z"/>
+<path id="path3_stroke" d="M 7.39304 0L 7.39304 22.5789L 8.39304 22.5789L 8.39304 0L 7.39304 0ZM 15.2861 0L 15.2861 22.5789L 16.2861 22.5789L 16.2861 0L 15.2861 0ZM -0.5 0L -0.5 22.5789L 0.5 22.5789L 0.5 0L -0.5 0Z"/>
+<path id="path4_fill" d="M 34.9549 4.63158L 0 4.63158C 0 4.63158 0 2.31579 2.81894 2.31579L 14.0947 2.31579L 14.0947 0L 20.8602 0L 20.8602 2.31579L 32.1359 2.31579C 34.8421 2.31579 35.1428 3.85965 34.9549 4.63158Z"/>
+</defs>
+</svg>

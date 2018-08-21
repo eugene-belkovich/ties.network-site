@@ -1,0 +1,31 @@
+.use-of-proceeds__description {
+    font-size: 19px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.use-of-proceeds__info {
+    font-size: 21px;
+    line-height: 28px;
+    margin-top: 24px;
+    text-align: center;
+}
+
+.use-of-proceeds__scheme {
+    width: 100%;
+}
+
+.use-of-proceeds__scheme-mobile {
+    display: none;
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .use-of-proceeds__scheme {
+        display: none;
+    }
+
+    .use-of-proceeds__scheme-mobile {
+        display: block;
+    }
+}

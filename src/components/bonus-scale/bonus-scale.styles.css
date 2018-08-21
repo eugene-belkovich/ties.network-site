@@ -1,0 +1,90 @@
+.bonus-scale-wrapper {
+    background-color: white;
+}
+
+.bonus-scale-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    font-family: AvenirNextLTPro;
+}
+
+.bonus-scale-background-text {
+    left: -140px;
+    top: 130px;
+}
+
+.bonus-scale-content {
+    margin: 30px 50px 30px 130px;
+    z-index: 1;
+}
+
+.bonus-scale-title {
+    max-width: 800px;
+}
+
+.bonus-scale-text {
+    text-align: center;
+    padding: 10px 10%;
+    padding-top: 45px;
+    font-size: 24px;
+    line-height: 30px;
+    font-family: AvenirNextLTPro;
+}
+
+.bonus-scale-image-container {
+    padding: 0;
+}
+
+.bonus-scale-image {
+    margin-top: 15px;
+    max-width: 1054px;
+    width: 100%;
+    height: auto;
+}
+.bonus-scale-image-mobile {
+  max-width: 295px;
+  display: none;
+}
+@media (max-width: 599.5px) {
+    .bonus-scale-image {
+      display: none;
+    }
+    .bonus-scale-image-mobile {
+        display: block;
+    }
+}
+
+.bonus-scale-button {
+    margin: 40px 0;
+}
+
+@media (max-width: 959.5px) {
+    .bonus-scale-container {
+        margin-bottom: 0;
+    }
+
+    .bonus-scale-text {
+        padding: 10px 0%;
+        padding-top: 45px;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 599.5px) {
+    .bonus-scale-text {
+        padding: 10px 10%;
+        padding-top: 30px;
+        font-size: 14px;
+    }
+
+    .bonus-scale-image-container {
+        padding: 0 5%;
+    }
+
+    .bonus-scale-content {
+        margin: 20px;
+    }
+}

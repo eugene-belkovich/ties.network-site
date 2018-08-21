@@ -1,0 +1,139 @@
+.token-sale-wrapper {
+    margin-top: 0 !important;
+}
+
+.token-sale-terms-background-text {
+    left: -130px;
+    top: 130px;
+}
+
+.token-sale-terms-content {
+    margin: 30px 10px 30px 130px;
+    z-index: 1;
+}
+
+.token-sale-terms-title {
+    max-width: 1000px;
+}
+
+.token-sale-text-wrapper {
+    max-width: 950px !important;
+}
+
+.token-sale-text {
+    text-align: left;
+    padding-left: 30px !important;
+    max-width: 650px !important;
+    font-size: 24px;
+    line-height: 30px;
+    font-family: AvenirNextLTPro;
+}
+
+.token-sale-highlight-text {
+    color: #174F9F;
+    font-family: AvenirNextLTPro-Demi;
+}
+
+.token-sale-bold-text {
+    font-family: AvenirNextLTPro-Demi;
+}
+
+.token-sale-values-container {
+    margin: 10px 0;
+}
+
+.token-sale-values {
+    cursor: pointer;
+    color: #141414;
+    margin-bottom: 15px;
+}
+
+.token-sale-values::before {
+    content: '';
+    padding: 0 14px;
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+.token-sale-values.marketing::before {
+    background-color: #4F87C7;
+}
+
+.token-sale-values.development::before {
+    background-color: #2F6BB4;
+}
+
+.token-sale-values.team::before {
+    background-color: #174F9F;
+}
+
+.token-sale-values.staff::before {
+    background-color: #254986;
+}
+
+.token-sale-values.other::before {
+    background-color: #2A3C5B;
+}
+
+.token-sale-values.legal::before {
+    background-color: #232C33;
+}
+
+.token-sale-image-container {
+    padding-top: 35px !important;
+}
+
+.token-sale-image {
+    max-width: 550px !important;
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 1279.5px) {
+    .token-sale-image {
+        max-width: 450px !important;
+    }
+    .token-sale-text-wrapper {
+        max-width: 100% !important;
+        padding-top: 30px !important;
+    }
+
+    .token-sale-image-container {
+        padding: 35px 20% 0 20% !important;
+    }
+}
+
+@media (max-width: 959.5px) {
+    .token-sale-text {
+        padding: 10px 0;
+        font-size: 18px;
+    }
+
+    .token-sale-text p {
+        margin: 0;
+    }
+
+    .token-sale-values {
+        margin-bottom: 0;
+    }
+
+    .token-sale-values::before {
+        padding: 0 11px;
+    }
+}
+
+@media (max-width: 599.5px) {
+    .token-sale-text {
+        padding: 10px 10%;
+        font-size: 14px;
+    }
+
+    .token-sale-values::before {
+        padding: 0 9px;
+    }
+
+    .token-sale-terms-content {
+        margin: 20px;
+    }
+}

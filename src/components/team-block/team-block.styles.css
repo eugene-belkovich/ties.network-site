@@ -1,0 +1,51 @@
+.ico-details-page-wrapper .team-background-text {
+    left: -101px;
+    top: 127px;
+}
+
+.ico-details-page-wrapper .team-content {
+    margin: 20px 35px 0 110px;
+    min-height: 480px;
+    z-index: 1;
+}
+
+.ico-details-page-wrapper .team-wrapper {
+    background-color: #F6F6F6;
+}
+
+.ico-details-page-wrapper .team-landing-card-image {
+    width: 300px;
+    height: 300px;
+}
+.team-button-block {
+    margin-bottom: 35px;
+}
+@media (max-width: 959.5px) {
+    .ico-details-page-wrapper .team-landing-card-image {
+        width: 280px !important;
+        height: 280px !important;
+    }
+
+    .ico-details-page-wrapper .team-content {
+        margin: 20px 35px 0 0px;
+    }
+
+    .team-wrapper {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 599.5px) {
+    .team-button-block .white-paper {
+        margin: 20px 0;
+    }
+
+    .ico-details-page-wrapper .team-content {
+        margin: 58px 0;
+    }
+
+    .ico-details-page-wrapper .team-landing-card-image {
+        width: 220px !important;
+        height: 220px !important;
+    }
+}

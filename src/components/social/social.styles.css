@@ -1,0 +1,54 @@
+.social-link-container{
+    padding-top: 54px;
+    padding-bottom: 30px;
+}
+
+.social-link {
+    padding: 5px;
+    color: inherit;
+}
+
+.social-link i  {
+    color: inherit;
+    color: black;
+}
+
+.social-link i:hover {
+    color: rgb(26, 77, 159);
+}
+
+.talk-icon {
+    background: url('../../styles/public/svg/talk_logo_blue.svg');
+    height: 20px;
+    width: 20px;
+}
+
+.talk-icon:hover {
+    background: url('../../styles/public/svg/talk_logo_black.svg');
+}
+
+.menu-content .talk-icon{
+    background: url('../../styles/public/svg/talk_logo_black.svg');
+}
+
+.menu-content .talk-icon:hover {
+    background: url('../../styles/public/svg/talk_logo_blue.svg');
+}
+
+.band-icon {
+    background: url('../../styles/public/svg/band_logo_blue.svg');
+    height: 20px;
+    width: 20px;
+}
+
+.band-icon:hover {
+    background: url('../../styles/public/svg/band_logo_black.svg');
+}
+
+.menu-content .band-icon{
+    background: url('../../styles/public/svg/band_logo_black.svg');
+}
+
+.menu-content .band-icon:hover {
+    background: url('../../styles/public/svg/band_logo_blue.svg');
+}

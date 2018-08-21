@@ -1,0 +1,92 @@
+.about-page-wrapper {
+    background-color: white;
+}
+.about-page-wrapper .about-hero-block {
+    background-color: #f6f6f6;
+}
+.about-page-wrapper .partner-media-wrapper {
+    background-color: #f6f6f6;
+}
+.about-page-wrapper .subscribe-keep-in-touch-container {
+    margin-top: 0 !important;
+}
+.about-page-wrapper .partner-media-wrapper {
+    padding-bottom: 3% !important;
+    margin-bottom: 0 !important;
+}
+.about-page-wrapper .faces-centred-container .react-bodymovin-container {
+    max-width: 450px;
+    max-height: 500px;
+    height: 450px;
+}
+
+.about-page-wrapper .faces-centred-container.db .react-bodymovin-container {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.about-page-wrapper .landing-card-wrapper.faces-wrapper {
+    background-color: #F6F6F6 !important;
+}
+.about-page-wrapper .faces-block {
+    background-color: #F6F6F6 !important;
+}
+.about-page-wrapper .faces-container {
+    background: initial;
+}
+.about-page-wrapper .db-wrapper .faces-container .db{
+    background-color: #FFFFFF;
+
+}
+.about-page-wrapper .social-link-container {
+    padding-top: 35px;
+}
+
+.about-top-subscribe .subscribe-keep-in-touch-container .social-link-container {
+    padding-top: 10px;
+}
+
+.about-page-wrapper .white-paper {
+    /*margin: 20px 0;*/
+}
+.about-page-wrapper .subscribe-keep-in-touch-container {
+    background-color: #F6F6F6;
+}
+.about-page-wrapper .about-top-subscribe .subscribe-keep-in-touch-container {
+    background-color: #FFFFFF;
+}
+.about-page-wrapper .about-top-video-block {
+    background-color: #0D519D;
+}
+.about-page-wrapper .top-phone-video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 7%;
+}
+.about-page-wrapper .team-wrapper .landing-card-background-text {
+    top: 161px;
+    left: -96px;
+}
+.about-page-wrapper .about-top-video .information-row-text {
+    margin-bottom: 0;
+}
+.about-page-wrapper .case-container-main {
+    padding-top: 0px;
+}
+.about-page-wrapper .case-container {
+    padding-top: 0px;
+}
+.about-page-wrapper .case-container .logo-row {
+    margin-top: 30px;
+}
+@media (max-width: 959.5px) {
+    .about-page-wrapper .faces-centred-container .react-bodymovin-container {
+        height: 380px;
+    }
+}
+
+@media (max-width: 599.5px) {
+    .about-page-wrapper .faces-centred-container .react-bodymovin-container {
+        height: 330px;
+    }
+}

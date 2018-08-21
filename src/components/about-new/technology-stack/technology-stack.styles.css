@@ -1,0 +1,17 @@
+.technology-stack__container {
+    display: flex;
+    justify-content: center;
+}
+
+.technology-stack__scheme {
+    flex: 0 0 650px;
+    height: 700px;
+    max-width: 650px;
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .technology-stack__scheme {
+        height: auto;
+    }
+}

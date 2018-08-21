@@ -1,0 +1,70 @@
+.roadmap-wrapper {
+    background-color: white;
+}
+
+.roadmap-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: white;
+    font-family: AvenirNextLTPro;
+}
+
+.roadmap-background-text {
+    left: -240px;
+    top: 240px;
+}
+
+.roadmap-content {
+    display: flex;
+    align-items: center;
+    margin: 30px 50px 30px 130px;
+    min-height: 540px;
+    z-index: 1;
+}
+
+.roadmap-title {
+    max-width: 800px;
+}
+
+.roadmap-image-container {
+    padding: 0;
+}
+
+.roadmap-image {
+    margin-top: 15px;
+    max-width: 1250px;
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 1279.5px) {
+    .roadmap-image {
+        margin-top: 50px;
+        max-width: 200px;
+    }
+}
+
+@media (max-width: 959.5px) {
+    .roadmap-container {
+        margin-bottom: 0;
+    }
+
+    .roadmap-wrapper {
+        margin-top: 0 !important;
+    }
+}
+
+@media (max-width: 599.5px) {
+    .roadmap-image-container {
+        padding: 0 5%;
+    }
+
+    .roadmap-content {
+        margin: 20px;
+    }
+
+}
+

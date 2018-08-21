@@ -1,0 +1,90 @@
+.platform-page .platform-main-block {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+.platform-page .main-block-content {
+    left: 5%;
+}
+.platform-page .platform-main-block .description-first {
+    font-size: 34px;
+    margin-top: 24px;
+}
+.platform-page .platform-main-block .description-third {
+    font-size: 24px;
+    margin-bottom: 24px;
+    line-height: 30px;
+}
+.platform-page .platform-main-block .description-second {
+    font-size: 20px;
+    font-family: AvenirNextLTPro-Demi;
+}
+
+.platform-page .platform-animation .react-bodymovin-container {
+    max-width: 600px;
+    margin-bottom: 45px;
+    margin-top: 20px;
+}
+.platform-page .main-block .network-animation .react-bodymovin-container svg {
+    width: 33vw !important;
+    min-width: 0 !important;
+}
+.platform-page .platform-text-block {
+    /*padding-right: 7%;*/
+    padding-left: 7%;
+}
+
+@media (max-width: 1279.5px) {
+    .platform-page .platform-animation .react-bodymovin-container {
+        max-width: 450px;
+    }
+    .platform-page .platform-text-block {
+        max-width: 90%;
+    }
+    .platform-page .platform-main-block .description-first {
+        font-size: 30px;
+    }
+    .platform-page .platform-main-block .description-second {
+        font-size: 20px;
+    }
+    .platform-page .platform-main-block .description-third {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 959.5px) {
+    .platform-page .platform-animation .react-bodymovin-container {
+        max-width: 400px;
+    }
+    .platform-page .platform-main-block .description-first {
+        font-size: 26px;
+    }
+    .platform-page .platform-main-block .description-second {
+        font-size: 18px;
+    }
+    .platform-page .platform-main-block .description-third {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 599.5px) {
+    .platform-page .platform-animation .react-bodymovin-container {
+        max-width: 260px;
+    }
+    .platform-page .platform-main-block .description-first {
+        font-size: 24px;
+    }
+    .platform-page .platform-main-block .description-second {
+        font-size: 16px;
+    }
+    .platform-page .platform-main-block .description-third {
+        font-size: 16px;
+    }
+    .platform-page .platform-text-block {
+        /*padding-right: 7%;*/
+        padding-left: 0;
+    }
+}

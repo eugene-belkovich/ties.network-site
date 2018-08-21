@@ -1,0 +1,17 @@
+.how-it-works__container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.how-it-works__youtube {
+    box-shadow: 4.5px 7.8px 13px 0 rgba(32, 29, 30, 0.31);
+    max-height: 400px;
+    max-width: 1000px;
+}
+
+.how-it-works__youtube .react-player {
+    max-height: 400px !important;
+    max-width: 1000px !important;
+}

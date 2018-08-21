@@ -1,0 +1,205 @@
+.drawer-paper {
+    border: none !important;
+    width: 420px;
+    max-width: 85%;
+}
+
+.app-bar {
+    background-color: white !important;
+    top: 0;
+    box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0) !important;
+    position: fixed !important;
+    border-bottom: 1px solid lightgray;
+}
+
+.drawer-content {
+    margin-top: 63px;
+}
+
+.learn-more-button {
+    border: 1px solid black !important;
+    min-height: 31px !important;
+    line-height: 0 !important;
+    font-family: AvenirNextLTPro;
+    font-size: 14px;
+    margin: 0 15px;
+}
+
+.tiesnetwork {
+    font-family: Moderat_ss02;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+    margin: 40px 0;
+    color: #141414;
+}
+
+.tiesnetwork .text-style-1 {
+    letter-spacing: 0.9px;
+}
+
+.tiesnetwork .text-style-2 {
+    color: #e92f2c;
+}
+
+.app-bar .menu-button {
+    text-transform: none !important;
+    font-family: Moderat_ss02;
+    font-size: 23px;
+    font-weight: bold;
+    color: #141414;
+    padding-bottom: 15px;
+}
+
+.menu-content {
+    width: 210px !important;
+    max-width: 210px;
+}
+
+.menu-link {
+    cursor: pointer;
+    font-size: 16px;
+    color: #141414;
+    font-family: AvenirNextLTPro-Demi;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+.menu-link.active {
+    border-left: 1px solid #e92f2c;
+}
+
+.app-bar-links {
+    flex: 0 0 auto !important;
+    min-width: 600px;
+    width: auto !important;
+}
+
+.app-bar-links .menu-link {
+    padding: 5px 0;
+    margin-left: 20px;
+    margin-bottom: 0;
+    position: relative;
+}
+
+.app-bar-links .menu-link.active {
+    border-left: 0;
+}
+
+.app-bar-links .menu-link.active:after {
+    background: #D6242F;
+    border-left: none;
+    bottom: -4px;
+    content: '';
+    display: block;
+    height: 7px;
+    position: absolute;
+    width: 100%;
+}
+
+.menu-content .menu-download,
+.menu-content .menu-white-paper {
+    height: 30px;
+    width: 200px;
+    margin-top: 20px;
+}
+
+.appbar-buttons-container .menu-download,
+.appbar-buttons-container .menu-white-paper {
+    height: 30px;
+    width: auto;
+    max-width: 200px;
+    margin-top: 10px;
+}
+
+.appbar-buttons-container {
+    max-width: 375px !important;
+}
+
+.appbar-buttons-container .menu-download {
+    margin: 10px 0 0 20px;
+    width: auto;
+}
+
+.menu-download {
+    background-color: #174da1 !important;
+}
+
+.menu-download > span {
+    color: white !important;
+    font-family: AvenirNextLTPro-Demi;
+    text-transform: none;
+}
+
+.menu-white-paper {
+    background-color: #ffffff !important;
+}
+
+.menu-white-paper > span, .menu-white-paper a {
+    color: black !important;
+    text-transform: none;
+}
+
+.header-logo {
+    width: 41px;
+    height: 48px;
+    object-fit: contain;
+    margin-left: 2%;
+}
+
+.header-logo-container {
+    margin-right: 20px;
+}
+
+.menu-content .social-link-container {
+    padding: 40px 0 0 0;
+}
+
+.menu-content .social-link-container button {
+    width: 35px;
+    height: 35px;
+}
+
+@media (max-width: 1100.5px) {
+    .app-bar-links {
+        min-width: 485px;
+    }
+
+    .app-bar-links .menu-link {
+        font-size: 14px;
+        margin-left: 14px;
+    }
+}
+
+@media (max-width: 599.5px) {
+    .menu-download,
+    .menu-white-paper {
+        height: 30px;
+        width: 200px !important;
+    }
+
+    .menu-download {
+        margin-top: 20px;
+    }
+
+    .tiesnetwork {
+        margin: 0 0 20px 0;
+    }
+
+    .header-logo {
+        margin-right: 1%;
+    }
+
+    .drawer-content {
+        margin-top: 58px;
+        overflow: hidden;
+    }
+
+    .header-logo-container {
+        margin-right: 7px;
+    }
+
+    .menu-button-container {
+        max-width: 90px !important;
+    }
+}

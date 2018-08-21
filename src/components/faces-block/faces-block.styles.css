@@ -1,0 +1,126 @@
+.faces-block {
+    background: white;
+    padding: 25px 0;
+}
+
+.faces-container {
+    height: 100%;
+    background: white;
+}
+
+.faces-block .faces-image {
+    object-fit: contain;
+    width: 100%;
+    max-width: 475px;
+}
+
+.faces-centred-container {
+    height: 100%;
+}
+
+.faces-text-container {
+    height: 100%;
+}
+
+.faces-text-container .faces-title {
+    line-height: 30px;
+    text-align: justify;
+    font-family: AvenirNextLTPro-Regular;
+    padding: 4% 6% 4% 4%;
+    font-size: 20px;
+    color: black;
+}
+
+.faces-block-button {
+    width: 232px;
+    height: 60px;
+    font-family: AvenirNextLTPro-Demi !important;
+    font-size: 20px !important;
+    font-weight: 500 !important;
+    text-align: center !important;
+    text-transform: capitalize !important;
+    letter-spacing: 1px !important;
+    background-color: rgb(26, 77, 159) !important;
+}
+
+.faces-block-button:hover {
+    background-color: rgb(26, 77, 159) !important;
+}
+
+.separator {
+    border: 1px solid #CCCCCC;
+    width: 100%;
+    margin: 5%;
+}
+
+.faces-block .faces-centred-container.network .react-bodymovin-container {
+    margin-top: 6%;
+}
+
+.faces-block .faces-centred-container.db .react-bodymovin-container {
+    padding-bottom: 4%;
+}
+
+.faces-background-text {
+    left: -200px !important;
+    top: 181px !important;
+}
+
+.landing-card-wrapper.faces-wrapper {
+    background-color: white !important;
+}
+
+@media (max-width: 1279.5px) {
+    .faces-block-button {
+        height: 50px;
+    }
+
+    .faces-block-button {
+        font-size: 16px !important;
+    }
+
+    .faces-block .faces-image {
+        max-width: 400px;
+    }
+
+    .faces-block .faces-centred-container.network .react-bodymovin-container {
+        margin-top: 4%;
+    }
+    .faces-block .faces-centred-container.db .react-bodymovin-container {
+        padding-bottom: 4%;
+    }
+}
+
+@media (max-width: 959.5px) {
+    .faces-text-container .faces-title {
+        font-size: 18px;
+    }
+
+    .faces-block .faces-centred-container.network .react-bodymovin-container {
+        margin-top: 4%;
+    }
+    .faces-block .faces-centred-container.db .react-bodymovin-container {
+        padding-bottom: 2%;
+    }
+}
+
+@media (max-width: 599.5px) {
+    .faces-text-container .faces-title {
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        text-indent: 0;
+    }
+
+    .faces-block-button {
+        height: 45px;
+        font-size: 14px !important;
+    }
+
+    .faces-block .faces-centred-container.network .react-bodymovin-container {
+        margin-top: 3%;
+    }
+    .faces-block .faces-centred-container.db .react-bodymovin-container {
+        padding-bottom: 0;
+    }
+}

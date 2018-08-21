@@ -1,0 +1,15 @@
+.db-background-text {
+    left: -29px !important;
+    top: 38px !important;
+}
+
+.landing-card-wrapper.db-wrapper {
+    margin-top: 0px !important;
+}
+
+.ico-details-page-wrapper .db-wrapper .faces-container {
+    background-color: #f6f6f6;
+}
+.about-page-wrapper .db-wrapper .faces-container {
+    background-color: #f6f6f6;
+}

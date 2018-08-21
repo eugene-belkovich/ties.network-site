@@ -1,0 +1,177 @@
+.team {
+    overflow-x: hidden;
+}
+
+.team-landing-card-text {
+    display: block;
+    position: absolute;
+    top: -5%;
+    left: -60px;
+    bottom: 0;
+    width: 2em;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 140px;
+    font-family: Moderat_ss02;
+    opacity: 0.05;
+}
+
+.team-landing-card-text h1 {
+    z-index: 0;
+    transform-origin: 0 50%;
+    transform: rotate(-90deg) translate(-50%, 50%);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 2em;
+    margin: auto;
+    font-weight: bold;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+.advisors .card-descripton {
+    visibility: hidden;
+}
+
+.team-landing-card-title {
+    font-weight: bold;
+    font-family: Moderat_ss02;
+    font-size: 70px;
+    margin-top: 4%;
+    margin-left: 8%;
+}
+
+.card-name {
+    font-family: AvenirNextLTPro;
+    color: #141414;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.card-position {
+    font-family: AvenirNextLTPro;
+    color: #174da1;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.card-description {
+    font-family: AvenirNextLTPro;
+    color: #141414;
+    font-size: 16px;
+}
+
+.card-linkedin {
+    padding-top: 7%;
+}
+
+.card-linkedin a {
+    padding: 0;
+}
+
+.card-linkedin i {
+    font-size: 24px;
+    color: rgb(26, 77, 159);
+}
+
+.team-social-link {
+    color: inherit;
+}
+
+.team-social-link i {
+    color: rgb(26, 77, 159);
+}
+
+.team-social-link i:hover {
+    color: black;
+}
+
+.team-landing-cards {
+    padding-left: 4%;
+}
+
+.team-landing-card {
+    margin-bottom: 50px !important;
+    min-width: 690px;
+    align-self: center;
+    padding: 0 25px;
+    z-index: 2;
+}
+
+.team-landing-card-info {
+    background-color: white;
+    margin-left: -170px !important;
+    padding: 20px 20px 20px 190px;
+    z-index: -1;
+}
+
+.team-landing-image-container {
+    width: 350px !important;
+    min-height: 420px;
+}
+
+.team-landing-card-image {
+    width: 350px;
+    height: 350px;
+}
+
+@media (max-width: 1452.5px)  {
+    .team-landing-cards {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1279.5px) {
+    .team-landing-cards {
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 959.5px) {
+    .team-landing-card-title {
+        font-size: 55px;
+    }
+
+    .team-landing-image-container, .team-landing-card-image {
+        width: 280px !important;
+        height: 280px;
+    }
+
+    .team-landing-card {
+        min-width: 600px;
+        padding: 0 5%;
+    }
+}
+
+@media (max-width: 599.5px) {
+    .team-landing-card-text {
+        display: none;
+    }
+
+    .team-landing-card-title {
+        font-size: 45px;
+    }
+
+    .team-landing-card {
+        min-width: 320px;
+        padding: 0 5%;
+    }
+
+    .team-landing-card-info {
+        margin: -100px 0 0 0 !important;
+        padding: 120px 9% 20px 9%;
+    }
+
+    .team-landing-image-container {
+        width: 100% !important;
+        height: 220px;
+        min-height: 220px;
+        justify-content: center !important;
+    }
+
+    .team-landing-card-image {
+        width: 220px !important;
+        height: 220px;
+    }
+}

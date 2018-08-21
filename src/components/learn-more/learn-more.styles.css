@@ -1,0 +1,37 @@
+.learn-more-container {
+    background-color: #174F9D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 90px;
+}
+
+.learn-more-title {
+    color: white;
+    font-family: AvenirNextLTPro-Demi;
+    font-size: 30px;
+    margin-left: 11%;
+    margin-right: 11%;
+    text-align: center;
+}
+
+.learn-more-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 20px 60px;
+    flex-wrap: wrap;
+}
+
+.learn-more-buttons a {
+    margin: 0 20px 20px;
+}
+
+
+@media (max-width: 634px) {
+    .learn-more-buttons button {
+        margin: 0 !important;
+    }
+}

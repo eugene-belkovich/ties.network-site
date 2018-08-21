@@ -1,0 +1,48 @@
+.database-page .main-block {
+    background-image: url('./database-hero.png');
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 10%;
+}
+
+.database-page .logo-title {
+    margin-left: 0;
+}
+
+.database-page .description-third {
+    margin: 0;
+    padding: 0;
+    padding-top: 8px;
+}
+
+.database-page .video-info {
+    font-family: AvenirNextLTPro;
+    font-size: 20px;
+    columns: #000000;
+    margin-top: 35px;
+}
+
+.database-page .video-info:hover {
+    color: #174da1;
+}
+
+.database-page .main-block .text-block {
+    margin-right: 5%;
+}
+
+.database-page .video-info a,
+.database-page .video-info a:link,
+.database-page .video-info a:visited {
+    color: #000000;
+    text-decoration:none;
+}
+
+.database-page .video-info a:hover {
+    color: #174da1;
+}

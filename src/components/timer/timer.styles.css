@@ -1,0 +1,102 @@
+.timer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    max-width: 100vw;
+    margin: 40px 0 60px;
+}
+
+.circle {
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #5D83BB;
+    width: 160px;
+    height: 160px;
+    border: 1px solid rgba(255, 255, 255, 0.21);
+}
+
+.circle canvas {
+    width: 160px !important;
+    height: 160px !important;
+}
+
+.circle-content-value {
+    font-family: AvenirNextLTPro-Bold;
+    font-size: 48px;
+    color: white;
+}
+
+.circle-content-unit {
+    font-family: AvenirNextLTPro;
+    font-size: 24px;
+    color: white;
+}
+
+.circle-content {
+    position: absolute;
+    width: 160px !important;
+    height: 160px;
+    margin: 0 !important;
+    text-align: center;
+}
+
+@media (max-width: 959.5px) {
+    .circle {
+        width: 100px;
+        height: 100px;
+    }
+
+    .circle canvas {
+        width: 100px !important;
+        height: 100px !important;
+    }
+
+    .circle-content {
+        width: 100px !important;
+        height: 100px;
+    }
+
+    .circle-content-value {
+        font-size: 36px;
+    }
+
+    .circle-content-unit {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 599.5px) {
+    .circle {
+        width: 70px;
+        height: 70px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .circle canvas {
+        width: 70px !important;
+        height: 70px !important;
+    }
+
+    .circle-content {
+        width: 70px !important;
+        height: 70px;
+    }
+
+    .circle-content-value {
+        font-size: 24px;
+    }
+
+    .circle-content-unit {
+        font-size: 12px;
+    }
+
+    .timer-container {
+        margin: 40px 0 30px;
+    }
+}

@@ -1,0 +1,86 @@
+.platform-page .explore-features-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.platform-page .uses-feature-list {
+    margin: 5% 3% 1%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.platform-page .uses-list-image{
+    width: 72px;
+    height: 72px;
+}
+.platform-page .uses-list-label {
+    margin: 40px 0;
+    font-family: AvenirNextLTPro-Demi !important;
+    font-size: 18px;
+}
+
+.platform-page .uses-list-item {
+    flex-basis: 250px;
+    margin-bottom: 5%;
+}
+
+.platform-page .uses-list-text {
+    font-family: AvenirNextLTPro !important;
+    font-size: 18px;
+    font-weight: normal !important;
+    margin: 0 !important;
+}
+
+.platform-page .information-row-text {
+    text-align: center;
+}
+
+@media (max-width: 1279.5px) {
+    .platform-page .uses-list-item {
+        flex-basis: 220px;
+        margin: 5% 2% 45px
+    }
+}
+
+@media (max-width: 959.5px) {
+    .platform-page .uses-list-item {
+        flex-basis: 178px;
+    }
+
+    .platform-page .uses-list-image{
+        width: 64px;
+        height: 64px;
+    }
+    .platform-page .uses-list-label {
+        font-size: 16px;
+    }
+    .platform-page .uses-list-text {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 599.5px) {
+    .platform-page .platform-text-block {
+        max-width: 80% !important;
+    }
+    .platform-page .uses-feature-list {
+        margin-top: 13%;
+    }
+    .platform-page .uses-list-image{
+        width: 55px;
+        height: 55px;
+    }
+    .platform-page .uses-list-label {
+        font-size: 15px;
+    }
+    .platform-page .uses-list-text {
+        font-size: 15px;
+    }
+    .platform-page .platform-text-block .buttons-block{
+        margin-left: 0;
+    }
+}

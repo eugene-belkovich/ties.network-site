@@ -1,0 +1,16 @@
+.partners-card {
+    align-items: center;
+    background: #FFF;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    max-width: 400px;
+    padding: 32px;
+    width: 100%;
+}
+
+.partners-card__image {
+    max-height: 100%;
+    max-width: 100%;
+}

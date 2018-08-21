@@ -1,0 +1,18 @@
+.token-sale__scheme {
+    width: 100%;
+}
+
+.token-sale__scheme-mobile {
+    display: none;
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .token-sale__scheme {
+        display: none;
+    }
+
+    .token-sale__scheme-mobile {
+        display: block;
+    }
+}

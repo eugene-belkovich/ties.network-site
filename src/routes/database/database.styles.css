@@ -1,0 +1,62 @@
+.database-page .subscribe-keep-in-touch-container {
+    margin: 0 !important;
+}
+
+.database-page .subscribe-title {
+    padding-top: 96px;
+}
+
+.animation-grid {
+    background-color: white;
+}
+
+.animation-grid .faces-title {
+    text-align: left;
+}
+
+.animation-grid .faces-text-container {
+    justify-content: flex-start;
+}
+
+.animation-grid .faces-title,
+.animation-grid .faces-title-text {
+    line-height: 30px;
+    text-align: justify;
+    font-family: AvenirNextLTPro;
+    padding: 1% 8% 0%;
+    font-size: 24px;
+    color: black;
+    margin-left: 6%;
+}
+
+.animation-grid .faces-title {
+    font-family: AvenirNextLTPro-Bold;
+    font-size: 24px;
+}
+
+.database-page .video-title-block {
+    font-size: 3vw;
+}
+
+
+
+@media (max-width: 959.5px) {
+    .animation-grid .faces-title-text {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 599.5px) {
+    .animation-grid .faces-title,
+    .animation-grid .faces-title-text {
+        font-size: 14px;
+    }
+
+    .animation-grid .faces-title {
+        font-size: 17px;
+    }
+}
+
+.animation-grid .faces-container {
+    margin-top: 30px;
+}

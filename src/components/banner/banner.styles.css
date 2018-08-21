@@ -1,0 +1,15 @@
+.banner-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background-color: #FFFFFF;
+}
+
+.banner-text {
+    margin-left: 100px;
+}
+.banner-button {
+    margin-right: 20px;
+}

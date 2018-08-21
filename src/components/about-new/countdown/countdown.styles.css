@@ -1,0 +1,51 @@
+.countdown__container {
+    align-items: center;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+}
+
+.countdown__bonus {
+    font-size: 24px;
+    margin-top: 32px;
+}
+
+.countdown__counter {
+    display: flex;
+}
+
+.countdown__end {
+    margin-top: 24px;
+    text-align: center;
+}
+
+.countdown__end-description {
+    font-family: AvenirNextLTPro;
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 16px;
+    opacity: .8;
+}
+
+.countdown__end-title {
+    font-size: 28px;
+}
+
+.countdown__title {
+    font-size: 28px;
+}
+
+.countdown__title strong {
+    color: #F00;
+    font-family: AvenirNextLTPro-Bold;
+}
+
+@media screen and (max-width: 768px) {
+    .countdown__counter {
+        margin-top: 12px;
+    }
+
+    .countdown__title {
+        font-size: 22px;
+    }
+}

@@ -1,0 +1,74 @@
+.platform-wrapper {
+    background-color: white;
+}
+.platform-text {
+    font-family: AvenirNextLTPro-Regular;
+    font-size: 24px;
+    line-height: 32px;
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+.architecture {
+    max-width: 1200px;
+    width: 100%;
+    z-index: 2;
+    margin: 30px;
+}
+.architecture-mobile {
+    max-width: 295px;
+    display: none;
+}
+.platform-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10%;
+}
+.about-page-wrapper .platform-wrapper .landing-card-background-text {
+    left: -311px;
+    top: 300px;
+}
+
+@media (max-width: 1279.5px) {
+    .platform-text {
+        font-size: 20px;
+        line-height: 26px;
+    }
+    .platform-image {
+        padding-right: 13%;
+    }
+}
+
+@media (max-width: 959.5px) {
+    .platform-text {
+        font-size: 16px;
+        line-height: 26px;
+        margin-top: 0;
+        margin-left: 7%;
+        margin-right: 7%;
+    }
+    .platform-image {
+        padding-right: 15%;
+    }
+}
+
+@media (max-width: 599.5px) {
+    .platform-text {
+        line-height: 26px;
+        font-size: 15px;
+        margin-top: 0;
+        margin-left: 7%;
+        margin-right: 7%;
+    }
+    .platform-image {
+        padding-right: 0;
+    }
+    .architecture {
+        display: none;
+    }
+    .architecture-mobile {
+        display: flex;
+    }
+}

@@ -1,0 +1,55 @@
+.ico-details-page-wrapper .video-overlay {
+    /*background-image: url('./ico-details-placeholder.png');*/
+}
+
+.ico-details-page-wrapper .video-overlay-hide-poster {
+    background: none;
+}
+
+.ico-details-page-wrapper .video-title-block {
+    color: #174F9F !important;
+    font-size: 3vw;
+}
+
+.ico-details-page-wrapper .play-pause {
+    opacity: 1;
+    background-image: url('./play.svg');
+}
+
+.ico-details-page-wrapper .subscribe-keep-in-touch-container {
+    margin-top: 0 !important;
+}
+
+.ico-details-page-wrapper .bottom-stats {
+    margin-bottom: -90px;
+}
+
+.ico-details-page-wrapper .token-sale-wrapper .bonus-scale-text {
+    margin-top: 45px;
+}
+.ico-top-subscribe .subscribe-keep-in-touch-container {
+    background-color: #FBFBFB;
+}
+@media (max-width: 1279.5px) {
+    .ico-details-page-wrapper .token-sale-wrapper .bonus-scale-text {
+        margin-top: 45px;
+    }
+    .ico-top-subscribe .subscribe-form .subscribe-title {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 959.5px) {
+    .ico-details-page-wrapper .token-sale-wrapper .bonus-scale-text {
+        margin-top: 35px;
+    }
+}
+
+@media (max-width: 599.5px) {
+    .ico-details-page-wrapper .token-sale-wrapper .bonus-scale-text {
+        margin-top: 25px;
+    }
+    .ico-top-subscribe .subscribe-form .subscribe-title {
+        font-size: 16px;
+    }
+}

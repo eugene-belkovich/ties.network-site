@@ -1,0 +1,29 @@
+.countdown {
+    flex-direction: row;
+}
+.countdown .title {
+    font-family: AvenirNextLTPro;
+    font-size: 16px;
+    font-weight: bold;
+    color: #221d2f;
+}
+
+.countdown .date {
+    font-family: AvenirNextLTPro;
+    font-size: 16px;
+    margin-left: 5px;
+    font-weight: bold;
+    color: #221d2f;
+}
+
+@media (max-width: 599.5px) {
+    .countdown {
+        max-width: 140px !important;
+    }
+    .countdown .date {
+        font-size: 10px;
+        max-width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+}

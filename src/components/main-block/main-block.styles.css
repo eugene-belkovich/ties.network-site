@@ -1,0 +1,447 @@
+.main-block .react-bodymovin-container {
+  background-image: linear-gradient(45deg, #f3f3f3, #fcfcfc);
+  overflow: hidden;
+}
+
+.main-block .react-bodymovin-container svg {
+  width: 100vw !important;
+  min-width: 1500px !important;
+  height: calc(100vh - 84px) !important;
+  transform: translateY(-3px);
+}
+
+.faces-centred-container .react-bodymovin-container {
+  max-width: 400px;
+  max-height: 500px;
+  height: 450px;
+}
+
+.main-block {
+  position: relative;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.main-block-content {
+  position: relative;
+  left: 5%;
+  margin-top: -95vh;
+  width: 90% !important;
+}
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.logo {
+  width: 25%;
+  margin-right: 20px;
+  min-width: 60px;
+}
+.logo-main-title {
+  font-family: AvenirNextLTPro-Demi;
+  font-size: 64px;
+  line-height: 46px;
+}
+.logo-title {
+  font-family: AvenirNextLTPro-Demi;
+  font-size: 36px;
+  line-height: 46px;
+}
+
+.logo-block {
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.about-page-wrapper .logo-block {
+  margin-bottom: 0 !important;
+}
+
+.description-first {
+  font-family: AvenirNextLTPro-Bold;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: left;
+  color: #2B2B2B;
+}
+
+.description-third {
+  font-family: AvenirNextLTPro;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: left;
+  color: #2B2B2B;
+  margin-top: 35px;
+}
+
+.about-page-wrapper .buttons-block {
+  margin-top: 0 !important;
+}
+
+.download,
+.white-paper {
+  margin: 10px !important;
+  margin-top: 10px !important;
+  height: 60px;
+  width: 250px;
+  /*margin-right: 20px;*/
+}
+.white-paper {
+  margin-left: 10px !important;
+}
+@media (max-width: 599.5px) {
+  .download {
+    margin-left: 0 !important;
+  }
+  .white-paper {
+    margin-top: 10px !important;
+    margin-left: 0 !important;
+  }
+}
+.download {
+  background-color: #174da1 !important;
+}
+
+.download > span, .white-paper > span  {
+  color: white !important;
+  font-size: 20px;
+  font-family: AvenirNextLTPro-Demi;
+}
+
+.white-paper {
+  background-color: #ffffff !important;
+
+}
+.download {
+  /*margin: 30px 0;*/
+}
+.main-block .download {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.platform-main-block .white-paper {
+  margin-bottom: 0;
+  /*margin-top: 20px;*/
+}
+.platform-main-block .download {
+  /*margin-top: 20px;*/
+  margin-bottom: 0;
+}
+.white-paper > span, .white-paper a {
+  text-transform: capitalize;
+  color: black !important;
+}
+
+.download > span, .download a {
+  text-transform: capitalize;
+}
+
+.phone-image {
+  /*background: url('../../styles/public/image/about-hero.png') no-repeat center center;*/
+  background-size: contain;
+  width: 100%;
+}
+.main-block .buttons-block {
+  display: flex;
+}
+.about-hero-block #background-video{
+  margin-right: 30px;
+  margin-top: 35px;
+  position: absolute;
+  top: calc(5vh + 165px);
+  left: 52%;
+  height: calc(45vw * 3 / 4) !important;
+  width: 45vw !important;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.faces-block-button.about-learn-more {
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.case-container #background-video{
+  height: 100% !important;
+  width: 100%;
+  float: left;
+  top: 0;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.case-container .left-phone {
+  margin-bottom: 50px;
+}
+.left-phone .phone-image {
+  max-width: 90%;
+  object-fit: contain;
+}
+.top-phone {
+  display: block !important;
+}
+.top-phone .phone-image {
+  height: 350px;
+  margin-right: 10%;
+  object-fit: contain;
+  margin-bottom: 5%;
+}
+.main-block .buttons-block {
+  /*margin-top: 30px;*/
+}
+.main-block .buttons-block .download,
+.main-block .buttons-block .white-paper {
+  margin: 0;
+  /*margin: 10px !important;*/
+}
+
+.main-block .buy-tokens .download {
+  background: #e5332c !important;
+}
+
+.about-page-wrapper .left-0 {
+  margin-left: 0 !important;
+}
+
+@media (min-width: 1950px) {
+  .main-block {
+    justify-content: center;
+  }
+
+  .main-block-content {
+    width: 80% !important;
+    max-width: 2000px;
+    left: 0;
+  }
+}
+.logo-row .buttons-block .white-paper {
+  /*margin-right: 20px;*/
+}
+.token-logo {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+}
+.about-page-wrapper .circle {
+  background-color: #0D519D;
+}
+.about-page-wrapper .timer-container {
+  margin: 10px 0;
+}
+@media (max-width: 1279.5px) {
+  .about-hero-block #background-video {
+    top: calc(5vh + 180px);
+  }
+  .logo-block {
+    margin-bottom: 0;
+  }
+  .logo {
+    width: 21%;
+  }
+  .logo-title {
+    font-size: 32px;
+    line-height: 45px;
+  }
+  .description-first  {
+    font-size: 20px;
+  }
+  .description-third {
+    font-size: 16px;
+  }
+  .download,
+  .white-paper {
+    height: 50px;
+    /*margin-bottom: 20px;*/
+  }
+  .download > span, .white-paper > span  {
+    font-size: 16px;
+  }
+  .faces-centred-container .react-bodymovin-container {
+    max-width: 345px;
+  }
+ .logo-main-title {
+    font-size: 55px;
+ }
+  .case-container .top-phone {
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 959.5px) {
+  .about-page-wrapper .left-0 {
+    margin-left: 10px !important;
+  }
+
+  .about-page-wrapper .buy-tokens {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .about-page-wrapper .main-block {
+    margin-top: 0px;
+  }
+  .about-page-wrapper .logo-row {
+    margin-top: 64px;
+  }
+  .case-container .left-phone {
+    margin-bottom: 30px;
+  }
+  .about-hero-block #background-video{
+    position: relative;
+    left: 0;
+    top: 0;
+    height: calc(90vw * 3 / 4) !important;
+    width: 90vw !important;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+   }
+
+  .logo-row .buttons-block .white-paper {
+    margin-right: 0;
+  }
+  .download,
+  .white-paper {
+    margin-bottom: 0;
+    margin-right: 0;
+  }
+  .logo {
+    width: 18%;
+  }
+  .logo-main-title {
+    font-size: 46px;
+  }
+  .logo-title {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .logo-row {
+    justify-content: flex-start;
+  }
+  .main-block-content {
+    margin-top: -95vh;
+    min-height: 75vh;
+  }
+  .logo-container {
+    margin-top: 8%;
+  }
+  .logo-row .buttons-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .about-page-wrapper .logo-row {
+    justify-content: center;
+    align-items: center;
+  }
+  .description-third {
+    font-size: 16px;
+    font-family: AvenirNextLTPro-Demi;
+  }
+  .about-page-wrapper .main-block .buy-tokens .download {
+    margin-top: 10px !important;
+  }
+  .about-page-wrapper .timer-container {
+    margin: 10px 0;
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 599.5px) {
+  .about-page-wrapper .timer-container {
+    margin-top: 10px;
+  }
+  .case-container .left-phone {
+    margin-bottom: 20px;
+  }
+  .about-page-wrapper .main-block {
+    margin-top: 0px;
+  }
+  .about-page-wrapper .logo-row {
+    margin-top: 100px;
+  }
+  .logo-row .buttons-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .about-page-wrapper .logo-row {
+    /*margin-top: 20%;*/
+  }
+  .about-page-wrapper .logo-row {
+    justify-content: center;
+    align-items: center;
+  }
+  .logo {
+    width: 15%;
+  }
+  .logo-main-title {
+    font-size: 36px;
+  }
+  .logo-container {
+    margin-top: 0;
+  }
+  .logo-title {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .main-block .react-bodymovin-container svg {
+    width: 100vw !important;
+    min-width: 750px !important;
+    height: 500px !important;
+    transform: translateY(-3px);
+  }
+
+  .main-block-content {
+    position: relative;
+    left: 5%;
+    margin-top: -580px;
+    width: 90% !important;
+  }
+  .about-page-wrapper .buttons-block {
+    margin-top: 0 !important;
+  }
+  .about-page-wrapper .main-block .buy-tokens .download {
+    margin-top: 10px !important;
+  }
+  .logo {
+    margin-top: 0;
+  }
+
+  .description-first {
+    font-size: 18px;
+  }
+
+  .buttons-block {
+    width: 100%;
+  }
+
+  .about-page-wrapper .buttons-block {
+    width: 100%;
+  }
+
+  .description-third {
+    font-size: 13px;
+    font-family: AvenirNextLTPro-Demi;
+    margin-top: 10px;
+  }
+
+  .download {
+    height: 45px;
+    /*margin-left: calc(40vw - 125px)*/
+  }
+
+  .white-paper {
+      height: 45px;
+      /*margin-top: 40px;*/
+      /*margin-left: calc(40vw - 125px)*/
+  }
+
+  .download > span, .white-paper > span  {
+    font-size: 14px;
+  }
+}
